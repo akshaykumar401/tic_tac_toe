@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 4vmin;
+    font-family: 'Lobster', sans-serif;
+    font-size: 50px;
+    filter: drop-shadow(5px 5px 0 rgba(0, 0, 0,0.5));
+    color: #0079FF;
+}
+
+body {
+    background-color: #FF90BC;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 5px 5px 0 rgba(138, 205, 215,0.6);
+    font-size: 8vmin;
+    color: #000;
+    cursor: pointer;
+    background-color: #FFFFC7;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #503C3C;
+    color: #FFF;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #503C3C;
+    color: #FFF;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 25%;
+}
+
+#msg {
+    font-size: 5vmin;
+    position: relative;
+    top: 25%;
+    color: black;
+}
+
+.msg-container {
+    height: 30vmin;
+    width: 98.1%;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    top: 30%;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    font-family: 'Dancing Script', cursive;
+}
+
+.hide {
+    display: none;
+}
